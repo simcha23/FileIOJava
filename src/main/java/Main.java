@@ -20,6 +20,7 @@ public class Main {
         System.out.println("Please enter the name of a person that assisted you: ");
         String assistPerson = scanner.next();
 
+
         Visitor visitor = new Visitor(fullName, age, LocalDate.now(),LocalTime.now(),comment, assistPerson);
         visitor.save();
 

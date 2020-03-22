@@ -35,10 +35,7 @@ public class Visitor {
 
         try {
 
-            File folder = new File("Files");
             File file = new File("Files/visitor_" + their_full_name +".txt");
-
-            folder.mkdir();
 
             FileWriter myWriter = new FileWriter(file.getPath());
 
